@@ -13,7 +13,7 @@ The project utilizes the `butterfly-image-classification` dataset sourced from K
 *   **Categories:** Contains numerous butterfly species including *GREEN CELLED CATTLEHEART*, *BROWN SIPROETA*, and many others.
 *   **Train/Validation Split:** The data is split dynamically using an 80/20 ratio (80% for training, 20% for validation) to monitor generalization during training.
 
-## 🛠️ Methodology & Data Preprocessing
+## Methodology & Data Preprocessing
 To optimize model performance and prevent overfitting, extensive data preprocessing and augmentation were implemented using TensorFlow/Keras `ImageDataGenerator`:
 1.  **Rescaling:** All pixel values were normalized by dividing by 255 (scaling them to a `0-1` range) to ensure faster and more stable model convergence.
 2.  **Data Augmentation:** To make the model robust against variations in real-world images, the training generator applies real-time augmentations:
